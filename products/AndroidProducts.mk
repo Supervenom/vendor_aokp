@@ -26,3 +26,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vivow.mk \
     $(LOCAL_DIR)/wingray.mk \
     $(LOCAL_DIR)/zeus.mk \
+    $(LOCAL_DIR)/urushi.mk \
+    $(LOCAL_DIR)/anzu.mk \
