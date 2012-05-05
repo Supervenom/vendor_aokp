@@ -25,6 +25,6 @@ add_lunch_combo aokp_tf101-userdebug
 add_lunch_combo aokp_vibrantmtd-userdebug
 add_lunch_combo aokp_vivow-userdebug
 add_lunch_combo aokp_wingray-userdebug
-add_lunch_combo aokp_zeus-userdebug
 add_lunch_combo aokp_anzu-userdebug
 add_lunch_combo aokp_urushi-userdebug
+add_lunch_combo aokp_zeus-userdebug
