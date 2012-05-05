@@ -19,9 +19,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=ST18i BUILD_FINGERPRINT="SEMC/ST18i
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera
-    Mms
-    Music
+    Camera \
+    Mms \
+    Music \
 
 # Copy zeus specific prebuilt files
 PRODUCT_COPY_FILES +=  \
