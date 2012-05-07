@@ -7,6 +7,8 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+# Zeus overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/zeus
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_zeus
@@ -19,7 +21,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=R800i BUILD_FINGERPRINT="SEMC/LT18i
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera
+    Camera \
+    Mms \
+    Music \
 
 # Copy zeus specific prebuilt files
 PRODUCT_COPY_FILES +=  \
