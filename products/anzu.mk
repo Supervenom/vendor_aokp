@@ -7,6 +7,8 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+# Zeus overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/zeus
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_anzu
