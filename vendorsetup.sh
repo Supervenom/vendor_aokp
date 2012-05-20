@@ -1,3 +1,4 @@
 add_lunch_combo aokp_anzu-userdebug
+add_lunch_combo aokp_nozomi-userdebug
 add_lunch_combo aokp_urushi-userdebug
 add_lunch_combo aokp_zeus-userdebug

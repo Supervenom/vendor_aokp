@@ -7,8 +7,8 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
-# Zeus overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/zeus
+# Anzu overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/anzu
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_anzu
@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     Mms \
     Music \
 
-# Copy zeus specific prebuilt files
+# Copy anzu specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
