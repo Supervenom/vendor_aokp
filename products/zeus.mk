@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=R800i BUILD_FINGERPRINT="SEMC/LT18i
 PRODUCT_PACKAGES += \
     Camera \
     Mms \
-    Music \
+    Apollo \
 
 # Copy zeus specific prebuilt files
 PRODUCT_COPY_FILES +=  \
