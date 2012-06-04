@@ -25,5 +25,5 @@ PRODUCT_PACKAGES += \
 
 # Copy zeus specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
 
